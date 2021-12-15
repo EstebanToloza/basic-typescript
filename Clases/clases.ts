@@ -13,14 +13,14 @@
 //     acelerar 
 //     frenar 
 
-class Vehículo {
+class Vehiculo {
     marca:string
     fecha:string
     puertas:number
 
     //propiedades
     constructor(marca_:string, fecha_:string, puertas_:number) {
-        this.marca = marca_ //"this" hace referencia a "Vehículo"
+        this.marca = marca_ //"this" hace referencia a "Vehiculo"
         this.fecha = fecha_
         this.puertas = puertas_
     }
@@ -35,7 +35,7 @@ class Vehículo {
     }
 }
 
-const coche = new Vehículo("Ford", "12/07/2020", 4);
+const coche = new Vehiculo("Ford", "12/07/2020", 4);
 
 coche.marca 
 coche.fecha 
